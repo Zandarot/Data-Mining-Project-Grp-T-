@@ -77,12 +77,12 @@ public class Main {
         Class 4.00: 613 instances.
         */
         HashMap<String, Integer> samplingStrategy = new HashMap<>();
-        samplingStrategy.put("0.0", 5352);
+        samplingStrategy.put("0", 5352);
         samplingStrategy.put("0.46", 1000);
-        samplingStrategy.put("1.0", 1000);
-        samplingStrategy.put("2.0", 1000);
-        samplingStrategy.put("3.0", 1000);
-        samplingStrategy.put("4.0", 1000);
+        samplingStrategy.put("1", 1000);
+        samplingStrategy.put("2", 1000);
+        samplingStrategy.put("3", 1000);
+        samplingStrategy.put("4", 1000);
 
         int k = 10;
         Evaluator evaluator = new Evaluator();

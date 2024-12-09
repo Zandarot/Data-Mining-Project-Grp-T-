@@ -43,6 +43,13 @@ public class Smote implements IPreprocess {
                 balancedData.add(syntheticInstance);
             }
         }
+
+//        try {
+//            DataProcess.save_instances2arff(balancedData, "dataset/wind_dataset_pre_processed_smote_data_added.arff");
+//        } catch (Exception e) {
+//            throw new RuntimeException(e);
+//        }
+
         return balancedData;
     }
 
